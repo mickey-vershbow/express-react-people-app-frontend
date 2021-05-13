@@ -11,15 +11,24 @@ $contrastcolor: white;
 // HEADER
 
 nav {
-    @include white-text-black-bg;
-    display: flex;
-    justify-content: flex-start;
+  @include white-text-black-bg;
+  display: flex;
+  justify-content: flex-start;
 
-    a {
-        @include white-text-black-bg;
-        div {
-            margin: 10px;
-            font-size: large;
-        }
+  a {
+    @include white-text-black-bg;
+    div {
+      margin: 10px;
+      font-size: large;
     }
+  }
+}
+
+.person {
+  display: block;
+}
+
+.person img {
+  width: 20%;
+  height: 20%;
 }

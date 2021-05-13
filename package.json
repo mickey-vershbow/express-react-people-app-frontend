@@ -39,7 +39,9 @@
       "last 1 safari version"
     ]
   },
-    "react-dotenv": {
-    "whitelist": ["API_URL"]
+  "react-dotenv": {
+    "whitelist": [
+      "API_URL"
+    ]
   }
 }

@@ -11,7 +11,7 @@ function Main(props) {
   // function to make the API call for people
 console.log(env)
   const URL = env.API_URL || "http://localhost:3000/";
-
+  // const URL = "https://favorite-actors-express-react.herokuapp.com/people";
 
   const getPeople = async () => {
     const response = await fetch(URL);
